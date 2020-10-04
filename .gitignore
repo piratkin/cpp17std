@@ -1,0 +1,14 @@
+.*
+!.gitignore
+/docs/*
+!/docs/CMakeLists.txt
+!/docs/Doxyfile
+/cache/*
+!/cache/build.txt
+!/cache/produce.txt
+/build/
+/pkgs/
+GPATH
+GRTAGS
+GTAGS
+logo.png
