@@ -1,23 +1,38 @@
 # C++17 STD
 
-## Build documentation
+> Test build example using CMake
+
+## Build Makefile
 
 ```sh
-$ mkdir build
-$ cd build
-$ cmake ..
-$ cmake  . --build
+$ mkdir build && cd build && cmake ..
+```
+
+## Make Doxygen documentation
+
+```sh
+$ make doc
+```
+
+## Make & run application
+
+```sh
+$ make cpp17std && ./cpp17std
+```
+
+## Make & run googletests
+
+```sh
+$ make cpp17std-test && ./cpp17std-test
 ```
 
 ## TODO
 
-  - [ ] Use valgrind
-  - [ ] Use static analizer
-  - [ ] Add source
-  - [ ] Add tests
+  - [ ] Use Valgrind
+  - [ ] Use static analyze
+  - [ ] Add more source
+  - [ ] Add more tests
   - [ ] Code coverage
-  - [ ] Feature flags
   - [ ] Map of links between object files
   - [ ] Class inheritance map
   - [ ] Create packages (CPack)
-  - [ ]
